@@ -1,0 +1,154 @@
+ {{# each products}}
+<div class="row">
+    {{# each this }}
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="{{this.imagePath}}" alt="Image not found." class="img-responsive">
+
+            <div class="caption">
+                <h4>{{this.title}}</h4>
+
+                <p class="description">{{this.description}}</p>
+            </div>
+
+            <div class="clearfix">
+                <div class="price pull-left">Rs.{{this.price}}
+                    <a href="/add-to-cart/{{this._id}}" class="btn btn-success pull-right" role="button">
+                        Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+{{/each}} {{!--
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt1.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt2.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt8.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt3.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt4.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt5.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt6.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="http://localhost:3000/images/tshirt7.jpg" alt="Image not found" class="img-responsive">
+            <div class="caption">
+                <h4>TShirt</h4>
+                <p class="description">Trendy Tshirts</p>
+
+
+
+                <div class="clearfix">
+                    <div class="price">Rs. 200</div>
+                    <a href="#" class="btn btn-success" role="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
